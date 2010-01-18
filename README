@@ -1,1 +1,16 @@
 autor: tadeu luis anestesya@gmail.com
+
+
+Lançamentos:
+
+BUGS:
+
+Features:
+ A IMPLEMENTAR:
+ - adicionar resultados no twitter ( utilizar uma conta no twitter para guardar os resultados)
+ - adicionar resultados no BD (usar um BD para armazenar resultados)
+ - receber argumentos como forma simplificada.
+
+ JÁ IMPLEMENTADA:
+ - calcular horas de trabalho total.
+ - calcular horas extras.

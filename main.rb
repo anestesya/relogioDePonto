@@ -1,3 +1,4 @@
+#relogio de ponto usado para medir e guardar as horas trabalhadas.
 $horas_por_dia = 8.8
 $horas_na_semana = 44
 $carga_horaria = 0

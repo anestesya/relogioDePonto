@@ -1,0 +1,6 @@
+Relógio de Ponto.
+
+ Este relógio de ponto tem uma função especial, e server como um teste para uma nóva ideia em 
+armazenamento de dados. Ele pega o resultado dos calculos da hora de trabalho e armazena no twitter. De forma que os dados ficam acessíveis em qualquer lugar, como se fosse uma base de dados distribuida. 
+
+
