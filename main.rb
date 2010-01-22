@@ -12,6 +12,16 @@ get '/' do
   erb :index
 end
 
+post '/send' do
+  params['post']['hora'] 
+  params['post']['minuto']
+  params['post']['user']
+  params['post']['senha']
+  
+  "<h2>Horas na manhã: #{params['post']['hora']} : #{params['post']['minuto']}"
+  
+end
+
 helpers do 
   def file_link(file)
     filename = Pathname.new(file).basename
@@ -28,8 +38,8 @@ __END__
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>iUI Time O'Clock Results</title>
-    <meta name="viewport" content="device-width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
-    <style type="text/css" media="screen">@import "/stylesheets/iui.css";</style>
+    <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+    <style type="text/css" media="screen">@import "/stylesheets/iuix.css";</style>
     <script type="application/x-javascript" src="/javascripts/iui.js"></script>
   </head>
  
@@ -46,20 +56,20 @@ __END__
         <fieldset>
           <div class="row">
             <label>Per&iacute;odo</label>
-            <div class="toggle" onclick=""><span class="thumb"></span><span class="toggleOn">Manh&atilde;</span><span class="toggleOff">Tarde</span></div>
+            <div class="toggle" onclick="" toogled="true"><span class="thumb"></span><span class="toggleOn" >Manh&atilde;</span><span class="toggleOff">Tarde</span></div>
         </div>
         
           <div class="row">
             <label>Horas</label>
-            <input type="text" name="hora" />
+            <input type="text" name="post[hora]" />
          </div>
             
           <div class="row">
             <label>Minutos</label>
-            <input type="text" name="minutos" />
+            <input type="text" name="post[minutos]" />
           </div>
         </fieldset>
-        <a class="whiteButton" type="submit" href="#">Tweet It!</a>
+        <a class="whiteButton" type="submit" href="#" name="post[tweetit]">Tweet It!</a>
     </div>
   
     <div id="opcoes" title="Op&ccedil;&otilde;es" class="panel">
@@ -75,14 +85,14 @@ __END__
     <fieldset>
         <div class="row">
             <label>Usu&aacute;rio</label>
-            <input type="text" name="userName" value="anestesya"/>
+            <input type="text" name="post[user]" value="anestesya"/>
         </div>
         <div class="row">
             <label>Senha</label>
-            <input type="password" name="password" value="123456"/>
+            <input type="password" name="post[senha]" value="123456"/>
         </div>
     </fieldset>
-        <a class="whiteButton" type="submit" href="#">Gardar</a>
+        <a class="whiteButton" type="submit" href="#" name="post[gravar]">Gravar</a>
     </div>
       
   </body>
