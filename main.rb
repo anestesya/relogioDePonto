@@ -3,6 +3,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'pathname'
+require 'twitter'
 
 get '/' do
   dir = './files/'
@@ -12,14 +13,12 @@ get '/' do
   erb :index
 end
 
-post '/send' do
-  params['post']['hora'] 
-  params['post']['minuto']
-  params['post']['user']
-  params['post']['senha']
-  
-  "<h2>Horas na manhã: #{params['post']['hora']} : #{params['post']['minuto']}"
-  
+post '/tweetar' do
+   httpauth = Twitter::HTTPAuth.new('o_clockr', '1n0d3_50t')
+   client = Twitter::Base.new(httpauth)
+   
+   msg = "Horas na manhã: #{params[:horas]}:#{params[:minutos]}"
+   client.update(msg)
 end
 
 helpers do 
@@ -50,26 +49,27 @@ __END__
        <a class="button" href="#opcoes">Op&ccedil;&otilde;es</a>
      </div>
      
-    <div id="home" class="panel" selected="true" title="Enviar">
+    <div id="home" class="panel" selected="true" title="O ClockR">
         <h2>Calcule e envie</h2>
-        
+        <form id="tweetar" method="post" action="/tweetar">
         <fieldset>
           <div class="row">
-            <label>Per&iacute;odo</label>
+            <label for="periodo">Per&iacute;odo</label>
             <div class="toggle" onclick="" toogled="true"><span class="thumb"></span><span class="toggleOn" >Manh&atilde;</span><span class="toggleOff">Tarde</span></div>
         </div>
         
           <div class="row">
-            <label>Horas</label>
-            <input type="text" name="post[hora]" />
+            <label for="horas">Horas</label>
+            <input type="text" name="horas" id="horas" />
          </div>
             
           <div class="row">
-            <label>Minutos</label>
-            <input type="text" name="post[minutos]" />
+            <label for="minutos">Minutos</label>
+            <input type="text" name="minutos" id="minutos" />
           </div>
         </fieldset>
-        <a class="whiteButton" type="submit" href="#" name="post[tweetit]">Tweet It!</a>
+        <a class="whiteButton" type="submit" href="#" name="tweet">Tweet It!</a>
+	</form>
     </div>
   
     <div id="opcoes" title="Op&ccedil;&otilde;es" class="panel">
