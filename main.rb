@@ -17,7 +17,9 @@ post '/tweetar' do
    httpauth = Twitter::HTTPAuth.new('o_clockr', '1n0d3_50t')
    client = Twitter::Base.new(httpauth)
    
-   msg = "Horas na manhã: #{params[:horas]}:#{params[:minutos]}"
+   data = Time.now
+   hora = data.strftime("%I:%M%p")
+   msg = "#{data.strftime("%a/%b/%y")} - #{params[:usuario]} - #{params[:periodo]} está #{params[:ponto]} às #{hora}"
    client.update(msg)
 end
 
@@ -37,9 +39,15 @@ __END__
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>iUI Time O'Clock Results</title>
+    
     <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
-    <style type="text/css" media="screen">@import "/stylesheets/iuix.css";</style>
+    
+    <style type="text/css" media="screen">@import "/stylesheets/iui.css";</style>
+    <style type="text/css" media="screen">@import "/stylesheets/custom.css";</style>
+    
     <script type="application/x-javascript" src="/javascripts/iui.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.js"></script>
+    <script type="text/javascript" src="/javascripts/jutils.js"></script>
   </head>
  
   <body>
@@ -49,26 +57,31 @@ __END__
        <a class="button" href="#opcoes">Op&ccedil;&otilde;es</a>
      </div>
      
-    <div id="home" class="panel" selected="true" title="O ClockR">
+    <form id="home" class="panel" selected="true" title="O ClockR" method="post" action="/tweetar">
         <h2>Calcule e envie</h2>
-        <form id="tweetar" method="post" action="/tweetar">
+ 
         <fieldset>
           <div class="row">
             <label for="periodo">Per&iacute;odo</label>
-            <div class="toggle" onclick="" toogled="true"><span class="thumb"></span><span class="toggleOn" >Manh&atilde;</span><span class="toggleOff">Tarde</span></div>
-        </div>
+            <div class="toggle" toggled="true" id="periodos"><span class="thumb"></span><span class="toggleOn" >Manh&atilde;</span><span class="toggleOff">Tarde</span></div>
+            <input type="hidden" id="periodo" name="periodo" value="manh&atilde;"/>
+          </div>
         
           <div class="row">
-            <label for="horas">Horas</label>
-            <input type="text" name="horas" id="horas" />
+            <label for="ponto">Marcar</label>
+            <div class="toggle" toggled="true" id="pontos"><span class="thumb"></span><span class="toggleOn" >Entrada</span><span class="toggleOff">Sa&iacute;da</span></div>
+            <input type="hidden" id="ponto" name="ponto" value="Entrada"/>
+         </div>
+        </fieldset>
+        
+        <fieldset>
+          <div class="row">
+            <span class="hora"></span>
+            <input type="hidden" id="horas" name="horas" value="" />
          </div>
             
-          <div class="row">
-            <label for="minutos">Minutos</label>
-            <input type="text" name="minutos" id="minutos" />
-          </div>
         </fieldset>
-        <a class="whiteButton" type="submit" href="#" name="tweet">Tweet It!</a>
+        <a class="whiteButton" type="submit" href="#" name="tweetit" id="tweetit">Tweet It!</a>
 	</form>
     </div>
   
@@ -85,7 +98,7 @@ __END__
     <fieldset>
         <div class="row">
             <label>Usu&aacute;rio</label>
-            <input type="text" name="post[user]" value="anestesya"/>
+            <input type="text" name="usuario" id="usuario" value="anestesya"/>
         </div>
         <div class="row">
             <label>Senha</label>
