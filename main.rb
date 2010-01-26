@@ -19,8 +19,15 @@ post '/tweetar' do
    
    data = Time.now
    hora = data.strftime("%I:%M%p")
-   msg = "#{data.strftime("%a/%b/%y")} - #{params[:usuario]} - #{params[:periodo]} está #{params[:ponto]} às #{hora}"
+   msg = "#{data.strftime("%a/%b/%y")} - Nesta #{params[:periodo]} #{session[:usuario]} #{params[:ponto]} às #{hora}"
    client.update(msg)
+end
+
+post '/oauth' do 
+  httpoauth = Twitter::HTTPAuth.new(params[:usuario], params[:senha])
+  if Twitter::Base.new(httpoauth) 
+    session[:usuario] = params[:usuario]
+  end
 end
 
 helpers do 
@@ -85,7 +92,7 @@ __END__
 	</form>
     </div>
   
-    <div id="opcoes" title="Op&ccedil;&otilde;es" class="panel">
+    <form id="opcoes" title="Op&ccedil;&otilde;es" class="panel" method="post" action="/oauth">
       <h2>Enviar mensages via o_clockR</h2>
     <fieldset>
         <div class="row">
@@ -102,11 +109,11 @@ __END__
         </div>
         <div class="row">
             <label>Senha</label>
-            <input type="password" name="post[senha]" value="123456"/>
+            <input type="password" name="senha" id="senha" value="123456"/>
         </div>
     </fieldset>
-        <a class="whiteButton" type="submit" href="#" name="post[gravar]">Gravar</a>
-    </div>
+        <a class="whiteButton" type="submit" href="#" name="gravar">Gravar</a>
+    </form>
       
   </body>
  
