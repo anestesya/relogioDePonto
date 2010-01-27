@@ -10,7 +10,7 @@ end
 
 enable :sessions
 post '/tweetar' do
-   httpauth = Twitter::HTTPAuth.new('o_clockr', '1n0d3_50t')
+   httpauth = Twitter::HTTPAuth.new('o_clockr', '#')
    client = Twitter::Base.new(httpauth)
    
    user = session["user"]
