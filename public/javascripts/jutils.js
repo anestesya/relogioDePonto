@@ -25,4 +25,29 @@ jQuery(function($){
 		    $('#ponto').val('saiu');
 	    }	
 	});	
+	
+	
+	
+	  //BD: HTML5
+	  function saveUser(){
+	  		try {		
+	  		  if (window.openDatabase){
+			  db = window.openDatabase("o_clockr", "1.0", "HTML 5 Storage: Usuários", 1024);
+	    	
+			  if (!db) {
+			  	$('#tweetit').after('Erro ao carregar banco.');
+			  } else {
+			  	 db.transaction(function (tx) {
+            		tx.executeSql("INSERT INTO o_clockr (id, user)");
+        		 }); 
+			  }
+				
+				
+		    } else 
+		        $('#tweetit').after('Erro ao carregar banco. Navegador não suporta.');
+		    } catch (e) {
+			     $('#tweetit').after("BD: "+e)
+	        }//fim do try.	
+	  }//fim saveUser()
+	
 });

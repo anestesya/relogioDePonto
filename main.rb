@@ -1,5 +1,3 @@
-#relogio de ponto usado para medir e guardar as horas trabalhadas
-
 require 'rubygems'
 require 'sinatra'
 require 'twitter'
@@ -10,14 +8,17 @@ end
 
 enable :sessions
 post '/tweetar' do
-   httpauth = Twitter::HTTPAuth.new('o_clockr', '#')
+   httpauth = Twitter::HTTPAuth.new('o_clockr', '1n0d3_50t')
    client = Twitter::Base.new(httpauth)
    
    user = session["user"]
+   
    data = Time.now
    hora = data.strftime("%I:%M%p")
    msg = "#{data.strftime("%a/%b/%y")} - Nesta #{params[:periodo]}, @#{user} #{params[:ponto]} às #{hora}"
-   client.update(msg)
+   if client.update(msg)
+     return true
+   end
 end
 
 enable :sessions
