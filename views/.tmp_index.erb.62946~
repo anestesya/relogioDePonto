@@ -1,0 +1,65 @@
+<div class="toolbar">
+       <h1 id="pageTitle">O'Clock Results</h1>
+       <a id="backButton" class="button" href="#">voltar</a>
+       <a class="button" href="#opcoes">Op&ccedil;&otilde;es</a>
+     </div>
+     
+    <form id="home" class="panel" selected="true" title="O ClockR" method="post" action="/tweetar">
+        <h2>Calcule e envie</h2>
+ 
+        <fieldset>
+          <div class="row">
+            <label for="periodo">Per&iacute;odo</label>
+            <div class="toggle" toggled="true" id="periodos"><span class="thumb"></span><span class="toggleOn" >Manh&atilde;</span><span class="toggleOff">Tarde</span></div>
+            <input type="hidden" id="periodo" name="periodo" value="manh&atilde;"/>
+          </div>
+        
+          <div class="row">
+            <label for="ponto">Marcar</label>
+            <div class="toggle" toggled="true" id="pontos"><span class="thumb"></span><span class="toggleOn" >Entrada</span><span class="toggleOff">Sa&iacute;da</span></div>
+            <input type="hidden" id="ponto" name="ponto" value="entrou"/>
+         </div>
+        </fieldset>
+        
+        <fieldset>
+          <div class="row">
+            <span class="hora"></span>
+            <input type="hidden" id="horas" name="horas" value="" />
+         </div>
+            
+        </fieldset>
+		
+		<div class="resposta">
+			<span class="data"></span> - 
+			Nesta <span class="periodo_atual">Manh&atilde;</span>, 
+			@<span class="user"></span> 
+			<span class="ponto">entrou</span> &agrave;s 
+			<span class="horas"></span>
+	    </div>
+        <a class="whiteButton" name="tweetit" id="tweetit">Tweet It!</a>	
+		
+	</form>
+    </div>
+  
+    <form id="opcoes" title="Op&ccedil;&otilde;es" class="panel" method="post" action="/oauth">
+      <h2>Enviar mensages via o_clockR</h2>
+    <fieldset>
+        <div class="row">
+            <label>Usar o_clockR user</label>
+            <div class="toggle" onclick=""><span class="thumb"></span><span class="toggleOn">ON</span><span class="toggleOff">OFF</span></div>
+        </div>
+    </fieldset>
+    
+    <h2>Use seu usu&aacute;rio notwitter</h2>
+    <fieldset>
+        <div class="row">
+            <label>Usu&aacute;rio</label>
+            <input type="text" name="usuario" id="usuario" value="anestesya"/>
+        </div>
+        <div class="row">
+            <label>Senha</label>
+            <input type="password" name="senha" id="senha" value="123456"/>
+        </div>
+    </fieldset>
+        <a class="whiteButton" type="submit" href="#" name="gravar" id="gravar">Gravar</a>
+    </form>
