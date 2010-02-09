@@ -1,34 +1,42 @@
-#esta classe é responsável por fazer o tweet com oauth.
-#autor: tadeu luis
-#email: anestesya@gmail.com
+require 'oauth'
 
-require 'rubygems'
-require 'twitter'
-
-#class O_clockRAuth
- 
- oclock_oauth = { #configurações usadas para conecção
+class OAuthoClockr
+   #
+   # inicializa a autenticação por oauth.
+   #
+   
+ @oclockr_oauth = { #configurações usadas para conecção
     'consumer_key' => "UT84Cc0OsmOVdQaJ8zNtPA", 
     'consumer_secret' => "Z50TpDOHXXNhdhSv1m18DQ54zqoNtgE1c3ouWynv8",
-    'callback_url' => "http://webbdesign.com.br/ant-dev/o_clockr/",
-    'request_token' => "http://twitter.com/oauth/request_token",
+    'request_token' => "http://twitter.com/oauth/request_token",  
     'access_token' => "http://twitter.com/oauth/access_token",
     'authorize_url' => "http://twitter.com/oauth/authorize"
-  }
+    }
+    
+    session = {
+     :request_token => nil,
+     :request_token_secret => nil
+    }
+    
+    #a chave e o seu segredo vem do twitter.
+    oauth = OAuth::Consumer.new(@oclockr_oauth['consumer_key'],                       
+                                @oclockr_oauth['consumer_secret'], 
+                              {:site=>"https://twitter.com"})
   
-  # NOT SHOWN: granting access to twitter on website
-  # and using request token to generate access token
-  oauth = Twitter::OAuth.new(oclock_oauth['consumer_token'], oclock_oauth['consumer_secret'])
-  # oauth.authorize_from_access(oclock_oauth['access_token'], oclock_oauth['access_secret'])
-  oauth.authorize_from_request(oclock_oauth['consumer_token'], oclock_oauth['consumer_secret'], oclock_oauth['authorize_url'])
+    #peça para um token fazer um pedido.
+    url = "http://localhost:3000/"
+    request_token = oauth.get_request_token(:oauth_callback => url)
   
+    #anote o request_token eo seu segredo. Será utilizado adiante.
+    session[:request_token] = request_token.token
+    session[:request_token_secret] = request_token.secret
   
-   client = Twitter::Base.new(oauth)
-   client.friends_timeline.each  { |tweet| puts tweet.inspect } 
-   client.user_timeline.each     { |tweet| puts tweet.inspect }
-   client.replies.each           { |tweet| puts tweet.inspect }
-   
-   #envia umam mensagem direta para o meu twiiter.
-   puts "Digite um tweet: #{msg_140 = gets.chomp}"
-   client.update(msg)
-#end
+    #Agora sua URL irá pegar uma requisição que contém um oauth_verifier.
+    #Use este para construir um access_token
+    request_token = OAuth::RequestToken.new(oauth, session[:request_token], session[:request_token_secret])
+    access_token = request_token.get_access_token(oauth_verifier => params[:oauth_verifier])
+ end
+
+end
+ 
+ 

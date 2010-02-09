@@ -11,7 +11,7 @@
           <div class="row">
             <label for="periodo">Per&iacute;odo</label>
             <div class="toggle" toggled="true" id="periodos"><span class="thumb"></span><span class="toggleOn" >Manh&atilde;</span><span class="toggleOff">Tarde</span></div>
-            <input type="hidden" id="periodo" name="periodo" value="manh&atilde;"/>
+            <input type="hidden" id="periodo" name="periodo" value="manhã"/>
           </div>
         
           <div class="row">
@@ -28,16 +28,9 @@
          </div>
             
         </fieldset>
+        <a class="whiteButton" type="submit" href="#" name="tweetit" id="tweetit">Tweet It!</a>
 		
-		<div class="resposta">
-			<span class="data"></span> - 
-			Nesta <span class="periodo_atual">Manh&atilde;</span>, 
-			@<span class="user"></span> 
-			<span class="ponto">entrou</span> &agrave;s 
-			<span class="horas"></span>
-	    </div>
-        <a class="whiteButton" name="tweetit" id="tweetit">Tweet It!</a>	
-		
+		<div class="resposta">Mensagem</div>
 	</form>
     </div>
   

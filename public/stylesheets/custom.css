@@ -1,1 +1,3 @@
-.hora { font-size:1.3em; padding-bottom:5px;}
+.hora { font-size:1.3em; padding:10px 0 0 0 !important; width:100%; display:block; margin:0 auto; text-align:center;}
+.resposta {text-align:center; margin:0 auto; width:100%; height:30px;}
+.carregando {background: #fff url(../images/ajax-loader.gif) no-repeat center center; width:16px; height:11px;}
