@@ -13,22 +13,45 @@ get '/o_clockr' do
   erb :index
 end
 
+enable :sessions
+
 get '/tabelar' do
   base = logar_o_clockr
   nome = base.client.username # => 'o_clockr'
-  time_line
   
+  # metodo de conveniencia de cache, remover
+  if session['users_clock']
+    @users = session['users_clock']
+  else
   # http://rdoc.info/projects/jnunemaker/twitter
   # vamos buscar todas entradas!
   # esse metodo ta muito bruto, 
   #   o certo eh armazenar os twit localmente e só roda uns update de tempo em tempo, nao todo carregamento de pagina :P
   twits = base.home_timeline( :count => 100000 )
   
+  # TODO Logica inline feia, devia ser abstraida pra classe
+  @users = {}
+  twits.each do |t|
+    # Twit valido? Exp bem tosca sim :)
+    if t.text.include?( "Nesta") && t.text.include?( "@") && (t.text.include?( "saiu") || t.text.include?( "entrou")) # FAIL =~ / - Nesta .* @.* [entrou|saiu] /
+      # TODO verificar se essa regexp faz match em todos possiveis names do Twitter
+      user = t.text.match( /@([a-z0-9_]*) /)[1]
+      # o 1o vetor eh entrou, o 2o vetor eh saiu 
+      @users[user] = [[],[]] unless @users[user]
+      if t.text =~ / (entrou) /
+        @users[user][0].push Time.parse(t.created_at).strftime "%d/%m/%Y %X"
+      else
+        @users[user][1].push Time.parse(t.created_at).strftime "%d/%m/%Y %X"
+      end
+    end
+  end
   
+  session['users_clock'] = @users; p "fiz cache!"
+  end
+  #puts @users.inspect  #puts "-----------------------------------------------------"  #puts twits.inspect
   erb :tabela
 end
 
-enable :sessions
 post '/tweetar' do
    # LOGIN
    client = logar_o_clockr
@@ -55,7 +78,6 @@ end
 enable :sessions
 post '/oauth' do 
   session["user"] = params[:usuario]
-  debugger
   httpoauth = Twitter::HTTPAuth.new(session["user"], params[:senha])
   tentativa_login = Twitter::Base.new(httpoauth)
   if tentativa_login
