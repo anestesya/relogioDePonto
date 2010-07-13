@@ -13,8 +13,8 @@ end
 
 enable :sessions
 post '/tweetar' do
-   #httpauth = Twitter::HTTPAuth.new('o_clockr', '1n0d3_50t')
-   #client = Twitter::Base.new(httpauth)
+   httpauth = Twitter::HTTPAuth.new('o_clockr', '1n0d3_50t')
+   client = Twitter::Base.new(httpauth)
    oauth = OClockrTwit.new
    if oauth.consumer
      oauth.twitter_oauth_login
