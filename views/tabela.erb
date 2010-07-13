@@ -1,0 +1,11 @@
+<div>
+	<% @users.each do |k,v|%>
+	<ul><%= k %>
+		<% v[0].each_index do |i|%> 
+		<%# supondo que tem um numero igual de entradas e saidas, tah muito inocente %>
+		<li> <%= v[0][i] rescue "" %> - <%= v[1][i] rescue "" %> </li>
+		<% end %>
+	</ul>
+	<br>
+	<% end %>
+</div>
