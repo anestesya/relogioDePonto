@@ -72,20 +72,52 @@ jQuery(function($){
 	
 	//grava o nome do usuário dentro do SQLITE.
 	$('#gravar').click(function(){
+		console.log('sex');
 		var banco = abreBanco();
 		if( banco ){
-			saveUser($('#usuario', banco).val());
-			$('body').append('<p>usuário gravado.</p>');
+			$.ajax({
+				type: 'post',
+				url: '/oauth',
+				//data: 'usurario='+$('#usuario').val()+'&senha='+$('#senha').val(),
+				success: function(){
+					saveUser($('#usuario').val(), $('#senha').val(), banco);
+				}
+			});
 		}
-	});
+	});//fim do insere usuário.
 	
 	  //BD: HTML5
 	  function abreBanco(){
+	  	
+		//configurações do banco de dados
+		var bdOptions = {
+			fileName: 'funcionario',
+			version: '1.0',
+			displayName: 'Base de usuários do twitter',
+			maxSize: 1024
+		};
+		
 	  	try {
-			var db;
-			if(window.openDatabase){
-			  db = window.OpenDatabase("o_clockr", "1.0", "HTML 5 Storage: Usuários", 1024);
-			} else { alert('não abriu o banco.');}
+			//tenta abrir o banco no sqlite
+			var db = openDatabase(
+				bdOptions.fileName, 
+				bdOptions.version,
+				bdOptions.displayName,
+				bdOptions.maxSize				
+			);
+			
+			//cria tabela no banco de dados caso não exista.
+			db.transaction( 
+				function(transaction){
+					transaction.executeSql(
+						"CREATE TABLE IF NOT EXISTS users (" +
+									"id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,"+
+									"username TEXT NOT NULL,"+
+									"password TEXT NOT NULL" +
+								 ");"			
+					);
+				}//fim cria tabela
+			);//fim da transação.
 		} catch(e){ 
 			alert(e); 
 			return false;
@@ -94,35 +126,21 @@ jQuery(function($){
 		return db;		
 	  }//fim abreBanco
 	  
-	  
-	  function criaBanco(){
-	  	try{
-			if( abreBanco() ){
-				bc = abreBanco();
-				bc.executeSql("CREATE TABLE o_clockr(id text, usuario text");
-			} else {
-				$('body').append('<p>erro ao tentar abrir ao abrir o banco.</p>');
-			}
-		 } catch(e){
-			console.log(e);
-		 }
-		 
-		 return bc;	
-	  }
-	  
-	  function saveUser(user, db){
-	  		try {		
-	  		  		banco = db;
-			  		if (!db) {
-			  			$('#tweetit').after('Erro ao carregar banco.');
-			  		} else {
-			  	 		banco.transaction(function (tx) {
-            			tx.executeSql("INSERT INTO o_clockr values(null, "+user+")");
-        		       });
-			        }
-				 } catch (e) {
-			     		$('#tweetit').after("BD: "+e);
+	  //grava usuário no banco de dados.	 
+	  function saveUser(user, senha, db){
+		  	this.banco = db;
+	  		
+			if (this.banco) {
+				try{
+		  	 		this.banco.transaction(function (tx) {
+        				tx.executeSql("INSERT INTO users values(null, "+user+", "+senha+");");
+    		       });
+				   return false;
+				} catch (e) {
+			     		alert(e);
 	             }//fim do try.	
+	  		} else {aler('Banco não aberto para salvar usuário.')}
+			return;
 	  }//fim saveUser()
 	
 });

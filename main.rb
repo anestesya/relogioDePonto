@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'twitter'
-require 'oclockrtwit'
+#require 'oclockrtwit'
 
 #set :environment, :development 
 
@@ -13,8 +13,11 @@ get '/o_clockr' do
   erb :index
 end
 
-enable :sessions
+get '/opcoes' do
+  erb :opcoes
+end
 
+enable :sessions
 get '/tabelar' do
   base = logar_o_clockr
   nome = base.client.username # => 'o_clockr'
@@ -48,49 +51,45 @@ get '/tabelar' do
   
   session['users_clock'] = @users; p "fiz cache!"
   end
-  #puts @users.inspect  #puts "-----------------------------------------------------"  #puts twits.inspect
+
   erb :tabela
 end
 
+#envia tweet da mensagem para o twitter.
 post '/tweetar' do
-   httpauth = Twitter::HTTPAuth.new('o_clockr', '1n0d3_50t')
-   client = Twitter::Base.new(httpauth)
-   oauth = OClockrTwit.new
-   if oauth.consumer
-     oauth.twitter_oauth_login
-     oauth.twitter_oauth_access
-     client = Twitter::Base.new(oauth.Auth)
-   end  
-
    # LOGIN
    client = logar_o_clockr
+   p "#{session["user"]}"
    
-   # OAUTH
-   #oauth = OClockrTwit.new
-   #if oauth.consumer
-   #  oauth.twitter_oauth_login
-   #  oauth.twitter_oauth_access
-   #  client = Twitter::Base.new(oauth.Auth)
-   #end  
+   if session["user"]
+      user_reply = "@#{session["user"]}"
+   else
+     user_reply = ""
+   end
    
-   user = session["user"]
    data = Time.now
    hora = data.strftime("%I:%M%p")
-   msg = "#{data.strftime("%a/%b/%y")} - Nesta #{params[:periodo]}, @#{user} #{params[:ponto]} às #{hora}"
+   msg = "#{data.strftime("%a/%b/%y")} - Nesta #{params[:periodo]}, #{user_reply} #{params[:ponto]} às #{hora}"
+   
+   p "#{msg}"
+   
    if client.update(msg)
      @update_msg = msg     
      erb :index, :layout=>!request.xhr?
-     @update_msg
    end
 end
 
+#faz authenticação por oauth
 enable :sessions
 post '/oauth' do 
-  session["user"] = params[:usuario]
-  httpoauth = Twitter::HTTPAuth.new(session["user"], params[:senha])
-  tentativa_login = Twitter::Base.new(httpoauth)
-  if tentativa_login
-     session["user"] = tentativa_login
+  basic_auth = Twitter::HTTPAuth.new(params[:usuario], params[:senha])
+  conectado = Twitter::Base.new(basic_auth)
+  if conectado
+     session["user"] = conectado.client.username #nome do usuário logado no twitter.
+     p "logoou #{session["user"]}"
+     erb :index
+  else
+    p 'usuário inválido'
   end
 end
 
@@ -101,10 +100,7 @@ helpers do
   end
 end
 
-
 def logar_o_clockr
   httpauth = Twitter::HTTPAuth.new('o_clockr', '1n0d3_50t')
   Twitter::Base.new(httpauth)
 end
-
-
