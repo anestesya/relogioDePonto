@@ -52,11 +52,11 @@ TwitterApiRequest.prototype.getUTCtimestamp = function () {
 }
 
 // don't forget trailing &!
-TwitterApiRequest.prototype.consumerSecret = "MY-CONSUMER-SECRET-GOES-HERE&"
+TwitterApiRequest.prototype.consumerSecret = "Z50TpDOHXXNhdhSv1m18DQ54zqoNtgE1c3ouWynv8&"
 
 TwitterApiRequest.prototype.sigBaseTemplate = "POST&" +
   "{{ path }}&" +
-  "oauth_consumer_key%3DMY-CONSUMER-KEY-GOES-HERE%26" + 
+  "oauth_consumer_key%3DUT84Cc0OsmOVdQaJ8zNtPA%26" + 
   "oauth_nonce%3D" + "{{ nonce }}" + "%26" + 
   "oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D" + "{{ time }}" + "%26" + 
   "{{ optional_token }}" +
@@ -67,7 +67,7 @@ TwitterApiRequest.prototype.authTemplate = "OAuth " +
 	"oauth_nonce=\"" + "{{ nonce }}" + "\", " +
 	"oauth_signature_method=\"HMAC-SHA1\", " + 
 	"oauth_timestamp=\"" + "{{ time }}" + "\", " + 
-	"oauth_consumer_key=\"MY-CONSUMER-KEY-GOES-HERE\", " + 
+	"oauth_consumer_key=\"UT84Cc0OsmOVdQaJ8zNtPA\", " + 
 	"{{ optional_token }}" + 
 	"oauth_signature=\"" + "{{ signature }}" + "\", " + 
 	"oauth_version=\"1.0\"";
@@ -133,10 +133,8 @@ TwitterApiRequest.prototype.setUpUpdate = function (status) {
 var twitterUrl, updateUrl;
 
 var authorizeRequest = new TwitterApiRequest();
-authorizeRequest.processCredentials("USER-NAME", "USER-PASSWORD");
-authorizeRequest.sign();
 
-if (authorizeRequest.setUpAuthPost("bbletchley", "passw0rd")) {
+if (authorizeRequest.setUpAuthPost("worldcupsoutha", "c0p42010sa")) {
   twitterUrl = authorizeRequest.postTarget();
 } else {
   console.log("fail")
@@ -147,7 +145,13 @@ var req = new XMLHttpRequest();
 // sync for testing purposes, not required
 req.open('POST', twitterUrl, false);
 req.setRequestHeader("Authorization", authorizeRequest.authHeader);
-req.send();
+
+ try{
+	//req.send();
+	$.getJSON(twitterUrl, function(){console.log('deucerto')});
+ }catch(e){
+	console.log(e); 	
+ }
 
 // should be 200
 console.log(req.status);
@@ -168,7 +172,7 @@ var postRequest = new TwitterApiRequest();
 postRequest.token = oauthFields.oauth_token;
 postRequest.tokenSecret = oauthFields.oauth_token_secret;
 
-if (postRequest.setUpUpdate("Here is my inane new update!")) {
+if (postRequest.setUpUpdate("Este é meu primeiro tweet feito com a xAuth!!")) {
   updateUrl = postRequest.postTarget();
 }
 

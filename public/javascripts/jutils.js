@@ -78,7 +78,7 @@ jQuery(function($){
 			$.ajax({
 				type: 'post',
 				url: '/oauth',
-				//data: 'usurario='+$('#usuario').val()+'&senha='+$('#senha').val(),
+				data: 'usurario='+$('#usuario').val()+'&senha='+$('#senha').val(),
 				success: function(){
 					saveUser($('#usuario').val(), $('#senha').val(), banco);
 				}
