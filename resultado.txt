@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Wed Jul 14 12:58:58 +0000 2010</created_at>
+  <id>18517248355</id>
+  <text>Testando novamente.... #twitter #annotations... em busca da #web3.0 #WEBste dados</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>82</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Wed Jul 14 12:43:57 +0000 2010</created_at>
+  <id>18516361727</id>
+  <text>Testando novamente.... #twitter #annotations... em busca da #web3.0 #WEB de dados</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Wed Jul 14 12:37:01 +0000 2010</created_at>
+  <id>18516025335</id>
+  <text>Testando.... #twitter #annotations... em busca da #web3.0 #WEB de dados</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Wed Jul 14 12:30:41 +0000 2010</created_at>
+  <id>18515658878</id>
+  <text>Testando.... #twitter #annotations... em busca da #web3.0 #WEB de dados=[{website:{url:http://dev.twitter.com}}]</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jul 13 20:45:10 +0000 2010</created_at>
+  <id>18465034199</id>
+  <text>Tue/Jul/10 - Nesta tarde, @anestesya entrou &#224;s 05:45PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jul 13 20:34:44 +0000 2010</created_at>
+  <id>18464448952</id>
+  <text>Tue/Jul/10 - Nesta tarde, @anestesya entrou &#224;s 05:34PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jul 13 20:13:47 +0000 2010</created_at>
+  <id>18463259070</id>
+  <text>Tue/Jul/10 - Nesta manh&#227;, @anestesya entrou &#224;s 05:13PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jul 13 20:09:58 +0000 2010</created_at>
+  <id>18463043006</id>
+  <text>Tue/Jul/10 - Nesta manh&#227;, @anestesya entrou &#224;s 05:09PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jul 13 19:40:29 +0000 2010</created_at>
+  <id>18461337515</id>
+  <text>Tue/Jul/10 - Nesta manh&#227;, @anestesya entrou &#224;s 04:40PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jul 13 19:40:06 +0000 2010</created_at>
+  <id>18461314625</id>
+  <text>Tue/Jul/10 - Nesta tarde, @anestesya entrou &#224;s 04:40PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jul 13 17:42:34 +0000 2010</created_at>
+  <id>18454311243</id>
+  <text>Tue/Jul/10 - Nesta manh&#227;, @anestesya entrou &#224;s 02:42PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jul 13 17:38:51 +0000 2010</created_at>
+  <id>18454078554</id>
+  <text>Tue/Jul/10 - Nesta manh&#227;, @anestesya entrou &#224;s 02:38PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jul 13 01:56:19 +0000 2010</created_at>
+  <id>18400464934</id>
+  <text>Mon/Jul/10 - Nesta tarde, @anestesya saiu &#224;s 10:56PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jul 13 01:54:56 +0000 2010</created_at>
+  <id>18400370964</id>
+  <text>Mon/Jul/10 - Nesta tarde, @anestesya entrou &#224;s 10:54PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Jul 13 01:52:57 +0000 2010</created_at>
+  <id>18400238068</id>
+  <text>Mon/Jul/10 - Nesta manh&amp;atilde;, @ entrou &#224;s 10:52PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Wed Apr 21 22:23:42 +0000 2010</created_at>
+  <id>12601430985</id>
+  <text>Wed/Apr/10 - Nesta tarde, @anestesya entrou &#224;s 07:23PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Wed Apr 21 22:23:27 +0000 2010</created_at>
+  <id>12601419345</id>
+  <text>Wed/Apr/10 - Nesta manh&#227;, @anestesya entrou &#224;s 07:23PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Wed Apr 21 21:10:36 +0000 2010</created_at>
+  <id>12598001085</id>
+  <text>Wed/Apr/10 - Nesta manh&amp;atilde;, @anestesya saiu &#224;s 06:10PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Wed Apr 21 21:07:56 +0000 2010</created_at>
+  <id>12597881592</id>
+  <text>Wed/Apr/10 - Nesta manh&amp;atilde;, @anestesya entrou &#224;s 06:07PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Wed Apr 21 21:05:12 +0000 2010</created_at>
+  <id>12597761633</id>
+  <text>Wed/Apr/10 - Nesta tarde, @ saiu &#224;s 06:05PM</text>
+  <source>&lt;a href=&quot;http://apiwiki.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;API&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>106075763</id>
+    <name>tad-dev</name>
+    <screen_name>o_clockR</screen_name>
+    <location>Brasil</location>
+    <description>Rel&#243;gio de Ponto digital, criado por @anestesya. Utiliza uma interface movel para Iphone e Palm-pre.</description>
+    <profile_image_url>http://a1.twimg.com/profile_images/639243977/clock_normal.jpg</profile_image_url>
+    <url>http://tadeuluis.wordpress.com</url>
+    <protected>true</protected>
+    <followers_count>2</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>878787</profile_text_color>
+    <profile_link_color>141617</profile_link_color>
+    <profile_sidebar_fill_color>35515e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>a6e1ff</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon Jan 18 12:24:24 +0000 2010</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://a3.twimg.com/profile_background_images/67698909/leeds_castle_grounds_1440x900.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <profile_use_background_image>true</profile_use_background_image>
+    <notifications>false</notifications>
+    <geo_enabled>true</geo_enabled>
+    <verified>false</verified>
+    <following>false</following>
+    <statuses_count>81</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+    <follow_request_sent>false</follow_request_sent>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+</statuses>

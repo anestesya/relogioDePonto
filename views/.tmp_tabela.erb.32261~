@@ -1,4 +1,4 @@
-<div>
+<div class="panel" title="Carga Horária">
 	<% @users.each do |k,v|%>
 	<ul><%= k %>
 		<% v[0].each_index do |i|%> 

@@ -1,0 +1,42 @@
+  	<div class="toolbar">
+       <h1 id="pageTitle">O_Clockr</h1>
+       <a id="backButton" class="button" href="#">voltar</a>
+       <a class="button" href="/opcoes">Opções</a>
+	   <a class="button cargaHoraria" href="/tabelar" title="Para acessar a tabela de horarios URL: ">Carga Horária</a>
+	</div>
+
+<form id="home" class="panel" selected="true" method="post" action="/tweetar">
+        <h2>Marque o ponto</h2>
+ 
+        <fieldset>
+          <div class="row">
+            <label for="periodo">Período</label>
+            <div class="toggle" toggled="true" id="periodos"><span class="thumb"></span><span class="toggleOn" >Manhã</span><span class="toggleOff">Tarde</span></div>
+            <input type="hidden" id="periodo" name="periodo" value="manh&atilde;"/>
+          </div>
+        
+          <div class="row">
+            <label for="ponto">Marcar</label>
+            <div class="toggle" toggled="true" id="pontos"><span class="thumb"></span><span class="toggleOn" >Entrada</span><span class="toggleOff">Saída</span></div>
+            <input type="hidden" id="ponto" name="ponto" value="entrou"/>
+         </div>
+        </fieldset>
+        
+        <fieldset>
+          <div class="row">
+            <span class="hora"></span>
+            <input type="hidden" id="horas" name="horas" value="" />
+         </div>
+        </fieldset>
+		
+		<div class="resposta">
+			<span class="data"></span> - 
+			Nesta <span class="periodo_atual">Manhã</span>, 
+			<span class="user"></span> 
+			<span class="ponto">entrou</span> às 
+			<span class="horas"></span>
+	    </div>
+        <a class="whiteButton" id="tweetit" href="/tweetar">Tweet It!</a>	
+</form>
+  
+
